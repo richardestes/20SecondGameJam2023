@@ -13,4 +13,9 @@ public class SceneController : MonoBehaviour
     {
         return SceneManager.GetActiveScene().name;
     }
+
+    public static void ExitGame()
+    {
+        Application.Quit();
+    }
 }
