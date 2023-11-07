@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.NextLevel:
                 // INSERT NEXT LEVEL LOGIC HERE
+                Debug.Log("Level Completed!");
                 break;
             default:
                 Debug.LogError("ERROR: State does not exist");

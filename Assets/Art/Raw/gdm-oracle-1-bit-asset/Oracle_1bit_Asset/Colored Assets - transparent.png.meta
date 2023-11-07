@@ -1,0 +1,4474 @@
+fileFormatVersion: 2
+guid: 6ddb4cac532e92b408378feed50779e6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colored Assets - transparent_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 186
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfc458c0e988094bbaeeecfd1d01e67
+      internalID: 1429738770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 186
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ea9c38909af7498b658dfed9ba476
+      internalID: 105288306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7d1cbed2545848aae42defd0f8196
+      internalID: -230523831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3eb726067f6b3488411366760aeef9
+      internalID: 809902050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c409ab40cf4173408f497a81658e5f3
+      internalID: -983096607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 184
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1f07569c590941bad270033c0db31
+      internalID: 220510426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 161
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0624ac6b733bff4298b4b0474a0a7fc
+      internalID: -866168436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 169
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5a4f233a47d5e4d81a22413704fc5a
+      internalID: 557111431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 172
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df45f1c133e5114c84c7e5968e59656
+      internalID: -1201322013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 161
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67232e6153baa9c429de989947d8b4b2
+      internalID: 683379021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 153
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2664a5d1b9b024baee7c808c78b034
+      internalID: 1788696975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 161
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0430f41ae933bc4ab727c05420b44ee
+      internalID: -184297349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030784cc7be32dc429ffe45d97e4bf54
+      internalID: -857983348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 161
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046cb6beca40e6469e875521b7b6c36
+      internalID: -1808735092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 161
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9d9d78701695e4db6da47a091cb745
+      internalID: 456432041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d427bc49af4b68940b840e1c5f99a02e
+      internalID: -1793145874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0084ad2afb4ca040bd5e8f30edfa225
+      internalID: 1551607526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f49444b62f414145a9334e8d7365e16
+      internalID: -648954879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7f2750f060ad9489ccb245b805f603
+      internalID: 1069378416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b711a55a2b0ce5245b26d1ab3df677e0
+      internalID: -1226350273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14a53953a6ca5647914ed487967f510
+      internalID: -813508171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ae09419c3461498b6b6b20588a8c7
+      internalID: -1299892423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 145
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8832a60b46e042b8ce4e6560af9b3
+      internalID: -1555248717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 153
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfec2e94ecc4d154b9b9e6c248bfb8b9
+      internalID: 1536280692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd08d54a35ffe284f8b4559830063de2
+      internalID: 706035252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb6216ade03b843b101fea57e06674
+      internalID: -542252069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c8335dff2a61745ad49b89ae67e725
+      internalID: -847950108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 153
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8646db3b725a8c4ebcce7821a039996
+      internalID: 1290496527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 152
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cf0e4641a6cbf41b6686be1afd9d44
+      internalID: -1093377284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 152
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ae277cd7535204ab27f86a8baa5396
+      internalID: -851350939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2958e7a239238df47b43e82cb4581415
+      internalID: -2117151711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 152
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421c4dd9ec220694793b05c5816b6342
+      internalID: -964156263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df84ebf58c55cf488984df9b7ec1f4d
+      internalID: 1535585470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc37e7b627d8ad4bb1207fc8c5b474e
+      internalID: 108104679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 137
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772fe70d5bc4edb41be8289f9eab56f8
+      internalID: -404006718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 137
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef1ea184f901442bc3ad39286c6523
+      internalID: -1015780089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 137
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947b6f6556c77214aa6b5a0194831a42
+      internalID: -1573610949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_37
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 137
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b7827e1f45f7e4580dc20516fed9a6
+      internalID: 1200807427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_38
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 139
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca6f8dd5959fa446af7aaf0c867429f
+      internalID: -552821437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 136
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea991563a54cd57479f89dff98cec65d
+      internalID: 1097564934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eb06512743cf64db5236f2dfd53a1b
+      internalID: 261722635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 137
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4834523589dde49826e51cdfb600f3
+      internalID: 1796300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_42
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 137
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a5188b150a428409826ae8089f88be
+      internalID: -1798983896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b918a56c75ce440a030099c56d222c
+      internalID: -1144205693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 122
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79dabd8ffc13dd4d82180f44d527a5f
+      internalID: -190252461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_45
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 113
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42127d434d9c6ad4cacd7d06551c47b1
+      internalID: 1837882089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 113
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4913f1cb12f8374e87359512fb9f4e9
+      internalID: 2088342627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088c72979f6ecd74f94b4e3a1d7ae52d
+      internalID: -546692317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec3b1cfbc90ad44d9439a198366825a
+      internalID: 47501167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_49
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 113
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a262c03f3e0ec47bd7a7505e6559df
+      internalID: -755378710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_50
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f9619c026346542a41dcd79408e210
+      internalID: 792478038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_51
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 114
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b34cf973967fc4ebfc75672d0918a5
+      internalID: 525417634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f1a836781f79143bdbcc631da93124
+      internalID: -1519520525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_53
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 113
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3cc6a7bde5c0e4c87aada7c8d3710d
+      internalID: -1462568480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4697fbb820dc37b49b9c39a5891f05ad
+      internalID: -846860957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_55
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790543c30767f8e4cba7cdfd7de1a3e0
+      internalID: -627954416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39122e722da41b4e9c1c1610c552175
+      internalID: 1389901371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68142aec881f81540bf8746306a9f489
+      internalID: 824477766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a24e6bbbf07fe4498ff7ae30eee0ea5
+      internalID: 1882875924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_59
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23611333ba3c30048b798ccdc94b4625
+      internalID: -755394675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e6bfd62a821174494fca3d8a85a5de
+      internalID: 1628467297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_61
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b20206ddf5ee6f40aa5c19696f204bd
+      internalID: 544554223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c7b89b161fc8547935acde5e6c69d2
+      internalID: -1795246890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_63
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b707c6bafe97c6458262795d9859b8b
+      internalID: 542614432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8247e7b2db800bc47bdf1f81f9074625
+      internalID: 161600721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5333e3e391417e64fb45c664ca2a1a1b
+      internalID: 889757799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d0d604ecd4ee14292635b8e4ae5b91
+      internalID: -1000687637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed21b03ae3ac80942b48a2df2374de12
+      internalID: -2096516464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b82a34d4251a1f45a4b060a189bbf4a
+      internalID: 2132477135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_69
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 80
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599bfa95368759a498c5360fc344e4b0
+      internalID: 1590561755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_70
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d73f2991a6e914abbd182c7b2365a5
+      internalID: -455749658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_71
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c8fc487362f154caa6d1ec55f92fb0
+      internalID: 1192677115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_72
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 80
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d7d143c5d72fb42ba93122bd91b05d
+      internalID: 1692066789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_73
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 80
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455be1b86eb6bda46a991fb12489d587
+      internalID: -1973793874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_74
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 75
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01dfe8e05e1d84a84bd1eea057ab29
+      internalID: -1200235482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_75
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 82
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f8b23c370cc65408c0f4402bba8c83
+      internalID: 482904088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_76
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684b437694808584eaa672020c14ab07
+      internalID: -1982141391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_77
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2ca69e01b01ec448c843219e5e2a1f
+      internalID: -73007042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_78
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dac79fbe038a48448fa84a1d5dd62c2
+      internalID: -1575657017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_79
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c2aa9883896f4a951a75e3f399e3d
+      internalID: -608353300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_80
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17673e5f856d25846ab5c8051557aead
+      internalID: 111247242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e959816ef551e4898bb7779838e97d
+      internalID: 1084112507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_82
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f720745ae28a5459788f6cd84865bc
+      internalID: 1875989805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_83
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff0a26b395fda54b88b8599118548a8
+      internalID: 238806696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_84
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6541a4312b18f3f4a95dc14ef81e02d2
+      internalID: 430145441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_85
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 51
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124df81b0fcf23a4280dd6175d796f90
+      internalID: 228432810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_86
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 49
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac70b91f981bed47983dfb3aaa33272
+      internalID: 32597173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 57
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f559963ea971f40a493dc316bf7821
+      internalID: 1322395937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_88
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a218b77a19d364ca7c4d0a866341c4
+      internalID: -430470451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef8263bb3c9ec47ad37d7a82f7b0ff
+      internalID: -2005015025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f4aecd2bd922042bebd6809b2ae1a9
+      internalID: 1797208842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_91
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eaef6ba3c258540a585a47aa74a35d
+      internalID: -2032245689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_92
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505562a55f0706f4dae13ffe504ff6c1
+      internalID: 1777528816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_93
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710eeef46f1d304592755cdd677e60c
+      internalID: 692550050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_94
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00a976c8c10f164c8169be59292cba2
+      internalID: 1418236363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_95
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af46cf01bdeeeaa40b95a84a3dfa3d71
+      internalID: 1555860850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_96
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 41
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978594154ba32e241ae6c122a5548751
+      internalID: -1082280298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aab16fc5e5d37b47acef9284a3b42be
+      internalID: -530083245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_98
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10b4d6eed2670f40983c83d504d6d1c
+      internalID: 248231885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_99
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac539fab9d24ee4093f9611de08fd02
+      internalID: -671885987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6083fd02e0f72943b5a052e218db5cc
+      internalID: 1695268601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_101
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82287d3d6b028af45af52f00f9136e5d
+      internalID: -49692616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ac0f3c06c45244b7da7d0042602ac
+      internalID: 1508793392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_103
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba677ced9b3756a4a8319121eada2cc5
+      internalID: -762683478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_104
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e26d09c75f7f4648a277ed232764c5e
+      internalID: -1265035289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_105
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 24
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c45a5ef89efc34bbaecfce534645bd
+      internalID: 1204535244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_106
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 16
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2977dfce89dee56448a9ab1252e2313d
+      internalID: 545023571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_107
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3247e50ccaa173643b0b4392a53ffab3
+      internalID: -2035060106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_108
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 16
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072152a0b8379a4d928415b2f663fac
+      internalID: -1931571379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_109
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 16
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681f64d6ef204d34fa86e04e8a6c25ab
+      internalID: -97392773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_110
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 20
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f14c5eca54e004aa45a776b737aa76
+      internalID: 526437936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_111
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 27
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88645f83d18819545917f045039b5b99
+      internalID: -245326812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_112
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28042fb772bc884e887fcfc97da046a
+      internalID: -755896898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_113
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193322fad94be745927db85ef8f6f07
+      internalID: 534388007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_114
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d848a372af11ed40b9cd029505897a9
+      internalID: 1627344063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27668f9ce44dba40bc36b64063f2727
+      internalID: -1665178182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_116
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec33d5d08447b1b45b6f9140aabea1f5
+      internalID: -2044316579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_117
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d99e8669755f3c43a28512813f9d22a
+      internalID: -1892209634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_118
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 8
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ace3b680928704f94d749bd89096f9
+      internalID: 1230480207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_119
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 8
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff36c218af9becf4983693bd3638177c
+      internalID: -1150949969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_120
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5505f59fab5fa854c8e96594a57151da
+      internalID: 1278744029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_121
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757613c9fe49f4f4da80eea12fb90bbf
+      internalID: 207018935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_122
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b04d3ec526d67448ebd0f9eb39e033
+      internalID: 1349673861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_123
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa248b76762cb94cb23fa65a0dc924a
+      internalID: -1314073595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9dd2437b8a43c4cbf494c981133889
+      internalID: -768547732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_126
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d24fef5f02ff44ea142fca100443ca
+      internalID: 990236040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_127
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da5d05fe58d15a40bea24c1bb42d77b
+      internalID: 315134808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_128
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9942db726a55df74681abdb315ba10cc
+      internalID: 1494311516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_129
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551222108973c304b89b5ec35d1779f6
+      internalID: 1968367219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_130
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b45267529bd4248a8bb6abd1ec4163
+      internalID: -5938271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64aeb319a5d17c4fafe139581edf487
+      internalID: 1066242101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_132
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8536a0c69d2281e45b09bff4bf3ee0b3
+      internalID: 276999363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_133
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 40
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a9340b9c52ef24991ba88d36227dcf
+      internalID: 1405629159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_134
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 40
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eabb4281098bcf48ae72a4eea3a97f7
+      internalID: 1527428178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_135
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 40
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c810bb42863509546bb14bab18bc9fc8
+      internalID: 1192442283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_136
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 34
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee8bc1db79bc1545b2ff271f0656585
+      internalID: 1526034430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_137
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 34
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd5bf0add04534b8329585a97cb52c
+      internalID: 1265387136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_138
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 32
+        width: 4
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5156da659099c84894841c4c75b5583
+      internalID: 2038556386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_139
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0525c6044b01acd40bb0c912e72c91b6
+      internalID: 672362218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1ff8d894b5d69409641ce04d1dc682
+      internalID: -357917267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_141
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707e7695a4b87114091a17b9593aa661
+      internalID: -181919236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_142
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069231d9786f59946b82e29ee2f6d977
+      internalID: -840906489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_143
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60bb7b5249cd554887991f8a46155e6
+      internalID: -1971486398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_144
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 8
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35abb5ace5ab21d4f9e495d79838ff1a
+      internalID: -706474037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4748ee6cdce4eb24489b56f5382375f3
+      internalID: 351605214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_146
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0018fd783d1b5684a8b162055b62ac77
+      internalID: 515468204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_147
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9be68a4172353479b8adb8573f4c55
+      internalID: 469915415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_148
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9cb650d2b09ce409a201703d82c311
+      internalID: -540843744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_149
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976c462c5f81f344fab49654004ba007
+      internalID: 595420723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_150
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790e48db8a4a72743863cbebca9a5025
+      internalID: 2068562168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_151
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 19
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04df8bcebe06fed4f928a0553395949d
+      internalID: -1705344317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_152
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609d35ea37f45e44997e488460bf442f
+      internalID: -1461311738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ac58377d4738b469c2879ed16a98e5
+      internalID: 1535675813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_154
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612dc247b76ce39478587ee2acc17fc5
+      internalID: -1313635036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_155
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62138f2bf1a334478bb1af99655b057
+      internalID: 739528371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bdcc755ff4ac64aa49c03aa24d116a
+      internalID: 296830144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_157
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9186fec85586ba43b81c42ffc371b30
+      internalID: -977923100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_158
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c315c985146efec40a5d11ae207a8c7f
+      internalID: -1529589065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d551e29149d2db46943bab7d23ab48a
+      internalID: 1711800840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9649c9af2b9412b42b5f419ca9314828
+      internalID: -1190900881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_161
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242173c298d5ce049a0cc64436bca057
+      internalID: 1379085925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_162
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 186
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71e7280c62ff2469dc2ee45eaf078e
+      internalID: -290380471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_163
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171e5be5ab710d543a4c6619a4bc918e
+      internalID: 34480082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_164
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d636feaad2346ad46a5f243eddb70ef4
+      internalID: -862579689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_165
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 160
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21ed7ece4fd00045a3e0a100f96f337
+      internalID: 1622540044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_166
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a653f719c82cb054c9f1db6666687d3c
+      internalID: 1755642724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_167
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10a1d42dcd1ac6469363ca6da9be4da
+      internalID: 751624812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_168
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed23313c39c455346a68085a493dded8
+      internalID: 758660767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_169
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca7d448b11daad4b8685d3d43335746
+      internalID: 1811655075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_170
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6166825aae39b47993e7b2a48d4943
+      internalID: 57562947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_171
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 104
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ac5e84995f3b748acd267ec38a2750
+      internalID: -144672492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_172
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 104
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef6288808cb83c4c9b03a84472ad6fd
+      internalID: -1245299469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb4ea692b6dfad4e83227086fd5a2be
+      internalID: 869085979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_174
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d903756e1be4d142acdbde79effc778
+      internalID: -1125374544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_124
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9015245d04ebf2488b3d1d24aee86e0
+      internalID: -378360418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_175
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43932002b006cb49a0d62c65f8c0e94
+      internalID: -371091408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_176
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbda4dc836dd80d4c8d7787181dc27e6
+      internalID: 1339979454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_177
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d9bf3efd2989148a1efd2bf4f2232b
+      internalID: -635091210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_178
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 153
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee919fa27a134c84884f9f08edb4bb6a
+      internalID: 1836452655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_179
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 153
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3c2c1b37692214da506e3663f5a0e3
+      internalID: 1926574349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_180
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 153
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d07ff50dc18ba4daacea6c22cd1658
+      internalID: -2070603486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_181
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d521a335f7bc745b78909b23fdfb3f
+      internalID: -10885983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_182
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed2d909cce0a7b4db0bf9db0eaff9a7
+      internalID: -694188401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_183
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0313ae77ed0795499afbca33e747d82
+      internalID: 1705439703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_184
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb22a1ce6e557469dcbdf770677ed8
+      internalID: 1529504101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_185
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 137
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27995095314394c429839a101aee44a3
+      internalID: 1261627914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_186
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474a6c5401a800e4a96884afff07e299
+      internalID: 1464080921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_187
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ddc7623ff13a14db1d2d173c0154cf
+      internalID: -1537774803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_188
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 186
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec0eb85b9a2ec04ebff0cf37b027e9d
+      internalID: 118744348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_189
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 186
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e70a7f7498856e45a0de86163132371
+      internalID: 623318838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_190
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 186
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72ff974b623d404b8ea517b533f3767
+      internalID: 2109869494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_191
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 178
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfb8ce79b03b8548bed73f101b3b079
+      internalID: 794186398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_192
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 178
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08906d3a42c09954c914e8b76bf7f070
+      internalID: 276062622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_193
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 178
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a590716e79308d48abfc16944e51c11
+      internalID: 1811192936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_194
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 170
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9ca8e00b234404186cc58774504d74
+      internalID: -1104124227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_195
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84283f08b150e54ba5bdfa845c2ef01
+      internalID: 1555319092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colored Assets - transparent_196
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 170
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1433a317580cc844b8e02591cda55afe
+      internalID: 1111444635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Colored Assets - transparent_0: 1429738770
+      Colored Assets - transparent_1: 105288306
+      Colored Assets - transparent_10: 1788696975
+      Colored Assets - transparent_100: 1695268601
+      Colored Assets - transparent_101: -49692616
+      Colored Assets - transparent_102: 1508793392
+      Colored Assets - transparent_103: -762683478
+      Colored Assets - transparent_104: -1265035289
+      Colored Assets - transparent_105: 1204535244
+      Colored Assets - transparent_106: 545023571
+      Colored Assets - transparent_107: -2035060106
+      Colored Assets - transparent_108: -1931571379
+      Colored Assets - transparent_109: -97392773
+      Colored Assets - transparent_11: -184297349
+      Colored Assets - transparent_110: 526437936
+      Colored Assets - transparent_111: -245326812
+      Colored Assets - transparent_112: -755896898
+      Colored Assets - transparent_113: 534388007
+      Colored Assets - transparent_114: 1627344063
+      Colored Assets - transparent_115: -1665178182
+      Colored Assets - transparent_116: -2044316579
+      Colored Assets - transparent_117: -1892209634
+      Colored Assets - transparent_118: 1230480207
+      Colored Assets - transparent_119: -1150949969
+      Colored Assets - transparent_12: -857983348
+      Colored Assets - transparent_120: 1278744029
+      Colored Assets - transparent_121: 207018935
+      Colored Assets - transparent_122: 1349673861
+      Colored Assets - transparent_123: -1314073595
+      Colored Assets - transparent_124: -378360418
+      Colored Assets - transparent_125: -768547732
+      Colored Assets - transparent_126: 990236040
+      Colored Assets - transparent_127: 315134808
+      Colored Assets - transparent_128: 1494311516
+      Colored Assets - transparent_129: 1968367219
+      Colored Assets - transparent_13: -1808735092
+      Colored Assets - transparent_130: -5938271
+      Colored Assets - transparent_131: 1066242101
+      Colored Assets - transparent_132: 276999363
+      Colored Assets - transparent_133: 1405629159
+      Colored Assets - transparent_134: 1527428178
+      Colored Assets - transparent_135: 1192442283
+      Colored Assets - transparent_136: 1526034430
+      Colored Assets - transparent_137: 1265387136
+      Colored Assets - transparent_138: 2038556386
+      Colored Assets - transparent_139: 672362218
+      Colored Assets - transparent_14: 456432041
+      Colored Assets - transparent_140: -357917267
+      Colored Assets - transparent_141: -181919236
+      Colored Assets - transparent_142: -840906489
+      Colored Assets - transparent_143: -1971486398
+      Colored Assets - transparent_144: -706474037
+      Colored Assets - transparent_145: 351605214
+      Colored Assets - transparent_146: 515468204
+      Colored Assets - transparent_147: 469915415
+      Colored Assets - transparent_148: -540843744
+      Colored Assets - transparent_149: 595420723
+      Colored Assets - transparent_15: -1793145874
+      Colored Assets - transparent_150: 2068562168
+      Colored Assets - transparent_151: -1705344317
+      Colored Assets - transparent_152: -1461311738
+      Colored Assets - transparent_153: 1535675813
+      Colored Assets - transparent_154: -1313635036
+      Colored Assets - transparent_155: 739528371
+      Colored Assets - transparent_156: 296830144
+      Colored Assets - transparent_157: -977923100
+      Colored Assets - transparent_158: -1529589065
+      Colored Assets - transparent_159: 1711800840
+      Colored Assets - transparent_16: 1551607526
+      Colored Assets - transparent_160: -1190900881
+      Colored Assets - transparent_161: 1379085925
+      Colored Assets - transparent_162: -290380471
+      Colored Assets - transparent_163: 34480082
+      Colored Assets - transparent_164: -862579689
+      Colored Assets - transparent_165: 1622540044
+      Colored Assets - transparent_166: 1755642724
+      Colored Assets - transparent_167: 751624812
+      Colored Assets - transparent_168: 758660767
+      Colored Assets - transparent_169: 1811655075
+      Colored Assets - transparent_17: -648954879
+      Colored Assets - transparent_170: 57562947
+      Colored Assets - transparent_171: -144672492
+      Colored Assets - transparent_172: -1245299469
+      Colored Assets - transparent_173: 869085979
+      Colored Assets - transparent_174: -1125374544
+      Colored Assets - transparent_175: -371091408
+      Colored Assets - transparent_176: 1339979454
+      Colored Assets - transparent_177: -635091210
+      Colored Assets - transparent_178: 1836452655
+      Colored Assets - transparent_179: 1926574349
+      Colored Assets - transparent_18: 1069378416
+      Colored Assets - transparent_180: -2070603486
+      Colored Assets - transparent_181: -10885983
+      Colored Assets - transparent_182: -694188401
+      Colored Assets - transparent_183: 1705439703
+      Colored Assets - transparent_184: 1529504101
+      Colored Assets - transparent_185: 1261627914
+      Colored Assets - transparent_186: 1464080921
+      Colored Assets - transparent_187: -1537774803
+      Colored Assets - transparent_188: 118744348
+      Colored Assets - transparent_189: 623318838
+      Colored Assets - transparent_19: -1226350273
+      Colored Assets - transparent_190: 2109869494
+      Colored Assets - transparent_191: 794186398
+      Colored Assets - transparent_192: 276062622
+      Colored Assets - transparent_193: 1811192936
+      Colored Assets - transparent_194: -1104124227
+      Colored Assets - transparent_195: 1555319092
+      Colored Assets - transparent_196: 1111444635
+      Colored Assets - transparent_2: -230523831
+      Colored Assets - transparent_20: -813508171
+      Colored Assets - transparent_21: -1299892423
+      Colored Assets - transparent_22: -1555248717
+      Colored Assets - transparent_23: 1536280692
+      Colored Assets - transparent_24: 706035252
+      Colored Assets - transparent_25: -542252069
+      Colored Assets - transparent_26: -847950108
+      Colored Assets - transparent_27: 1290496527
+      Colored Assets - transparent_28: -1093377284
+      Colored Assets - transparent_29: -851350939
+      Colored Assets - transparent_3: 809902050
+      Colored Assets - transparent_30: -2117151711
+      Colored Assets - transparent_31: -964156263
+      Colored Assets - transparent_32: 1535585470
+      Colored Assets - transparent_33: 108104679
+      Colored Assets - transparent_34: -404006718
+      Colored Assets - transparent_35: -1015780089
+      Colored Assets - transparent_36: -1573610949
+      Colored Assets - transparent_37: 1200807427
+      Colored Assets - transparent_38: -552821437
+      Colored Assets - transparent_39: 1097564934
+      Colored Assets - transparent_4: -983096607
+      Colored Assets - transparent_40: 261722635
+      Colored Assets - transparent_41: 1796300056
+      Colored Assets - transparent_42: -1798983896
+      Colored Assets - transparent_43: -1144205693
+      Colored Assets - transparent_44: -190252461
+      Colored Assets - transparent_45: 1837882089
+      Colored Assets - transparent_46: 2088342627
+      Colored Assets - transparent_47: -546692317
+      Colored Assets - transparent_48: 47501167
+      Colored Assets - transparent_49: -755378710
+      Colored Assets - transparent_5: 220510426
+      Colored Assets - transparent_50: 792478038
+      Colored Assets - transparent_51: 525417634
+      Colored Assets - transparent_52: -1519520525
+      Colored Assets - transparent_53: -1462568480
+      Colored Assets - transparent_54: -846860957
+      Colored Assets - transparent_55: -627954416
+      Colored Assets - transparent_56: 1389901371
+      Colored Assets - transparent_57: 824477766
+      Colored Assets - transparent_58: 1882875924
+      Colored Assets - transparent_59: -755394675
+      Colored Assets - transparent_6: -866168436
+      Colored Assets - transparent_60: 1628467297
+      Colored Assets - transparent_61: 544554223
+      Colored Assets - transparent_62: -1795246890
+      Colored Assets - transparent_63: 542614432
+      Colored Assets - transparent_64: 161600721
+      Colored Assets - transparent_65: 889757799
+      Colored Assets - transparent_66: -1000687637
+      Colored Assets - transparent_67: -2096516464
+      Colored Assets - transparent_68: 2132477135
+      Colored Assets - transparent_69: 1590561755
+      Colored Assets - transparent_7: 557111431
+      Colored Assets - transparent_70: -455749658
+      Colored Assets - transparent_71: 1192677115
+      Colored Assets - transparent_72: 1692066789
+      Colored Assets - transparent_73: -1973793874
+      Colored Assets - transparent_74: -1200235482
+      Colored Assets - transparent_75: 482904088
+      Colored Assets - transparent_76: -1982141391
+      Colored Assets - transparent_77: -73007042
+      Colored Assets - transparent_78: -1575657017
+      Colored Assets - transparent_79: -608353300
+      Colored Assets - transparent_8: -1201322013
+      Colored Assets - transparent_80: 111247242
+      Colored Assets - transparent_81: 1084112507
+      Colored Assets - transparent_82: 1875989805
+      Colored Assets - transparent_83: 238806696
+      Colored Assets - transparent_84: 430145441
+      Colored Assets - transparent_85: 228432810
+      Colored Assets - transparent_86: 32597173
+      Colored Assets - transparent_87: 1322395937
+      Colored Assets - transparent_88: -430470451
+      Colored Assets - transparent_89: -2005015025
+      Colored Assets - transparent_9: 683379021
+      Colored Assets - transparent_90: 1797208842
+      Colored Assets - transparent_91: -2032245689
+      Colored Assets - transparent_92: 1777528816
+      Colored Assets - transparent_93: 692550050
+      Colored Assets - transparent_94: 1418236363
+      Colored Assets - transparent_95: 1555860850
+      Colored Assets - transparent_96: -1082280298
+      Colored Assets - transparent_97: -530083245
+      Colored Assets - transparent_98: 248231885
+      Colored Assets - transparent_99: -671885987
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
