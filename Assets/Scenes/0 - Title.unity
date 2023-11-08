@@ -310,12 +310,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 680327891}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: SceneChange
-        m_Mode: 5
+        m_MethodName: ChangeSceneByIndex
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 1 - Maze
           m_BoolArgument: 0
@@ -1174,7 +1174,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 20 SECONDS
+  m_text: '20
+
+    seconds'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b3ec01f2e47570f48bb7860a5653f947, type: 2}
   m_sharedMaterial: {fileID: 7758459923969241016, guid: b3ec01f2e47570f48bb7860a5653f947, type: 2}

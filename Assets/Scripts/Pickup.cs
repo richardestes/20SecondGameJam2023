@@ -4,6 +4,7 @@ public class Pickup : MonoBehaviour, ICollectible
 {
     public bool hasBeenCollected = false;
 
+    public int ScoreAmount;
     public virtual void Collect()
     {
         hasBeenCollected = true;
@@ -13,6 +14,7 @@ public class Pickup : MonoBehaviour, ICollectible
     {
         if (col.CompareTag("Player"))
         {
+            GameManager.instance.IncreaseScore(ScoreAmount);
             Destroy(gameObject);
         }
     }

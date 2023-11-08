@@ -45,8 +45,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Environment"))
         {
-            Destroy(gameObject);
-            GameManager.instance.GameOver();
+            GameManager.instance.Die();
         }
     }
 }

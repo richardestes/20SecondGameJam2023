@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -12,34 +15,67 @@ public class GameManager : MonoBehaviour
         GameOver,
         NextLevel
     }
-    
+    public GameObject Player;
+    public GameObject PlayerSpawn;
+
+    [Header("GameState")]
     public GameState currentState, previousState;
 
+    [Header("Stats")]
+    public int Score;
+    public int DeathCount;
+    public TMP_Text DeathCountDisplay;
+    
+    [Header("Audio")]
+    public AudioClip MainAudioClip;
+    public AudioSource MainAudioSource;
+    
     [Header("Stopwatch")]
     public float TimeLimit;
+    private float CurrentTime;
     public TMP_Text StopwatchDisplay;
     
     [Header("Screens")]
     public GameObject PauseScreen;
     public GameObject GameOverScreen;
     
-    public bool IsGameOver = false;
+    public bool IsGameOver, IsChangingLevel = false;
 
     private void Awake()
     {
-        // Singleton and ready to mingleton
-        if (instance == null) instance = this;
-        else
+        // Singleton Section
+        if (instance != null)
         {
             Debug.LogError("ERROR: Extra " + this + " deleted");
             Destroy(gameObject);
+            return;
         }
+        instance = this;
+        //DontDestroyOnLoad(gameObject);
+
+        Player = FindObjectOfType<PlayerMovement>().gameObject;
+        
         DisableScreens();
+        ResetStopwatch();
         ResetStopwatchColor();
+        UpdateDeathCountDisplay();
+        
+        // DEBUG: Printing Stats
+        Debug.LogWarning("Death Count: " + DeathCount);
+        Debug.LogWarning("Score: "+ Score);
+        
+        // Audio shit
+        MainAudioSource.clip = MainAudioClip;
+        MainAudioSource.Play();
+        MainAudioSource.volume = .2f;
     }
-    
+
     private void Update()
     {
+        if (SceneController.GetCurrentSceneIndex() == 0)
+        {
+            StopAudio();
+        }
         switch (currentState)
         {
             case GameState.Gameplay:
@@ -61,13 +97,52 @@ public class GameManager : MonoBehaviour
                 }
                 break;
             case GameState.NextLevel:
-                // INSERT NEXT LEVEL LOGIC HERE
-                Debug.Log("Level Completed!");
+                if (!IsChangingLevel)
+                {
+                    IsChangingLevel = true;
+                    Debug.Log("Level Completed!");
+                    int sceneIndex = SceneController.GetCurrentSceneIndex();
+                    sceneIndex++;
+                    SceneController.ChangeSceneByIndex(sceneIndex);
+                }
                 break;
             default:
                 Debug.LogError("ERROR: State does not exist");
                 break;
         }
+  
+    }
+
+    public void Die()
+    {
+        IncreaseDeathCount();
+        ResetSpawn();
+        UpdateDeathCountDisplay();
+    }
+
+    public void UpdateDeathCountDisplay()
+    {
+        DeathCountDisplay.text = DeathCount.ToString();
+    }
+
+    void ResetSpawn()
+    {
+        Player.transform.position = PlayerSpawn.transform.position;
+    }
+
+    void IncreaseDeathCount()
+    {
+        DeathCount++;
+    }
+
+    public void IncreaseScore(int amount)
+    {
+        Score += amount;
+    }
+
+    public void StopAudio()
+    {
+        MainAudioSource.Stop();
     }
     
     void DisableScreens()
@@ -77,7 +152,6 @@ public class GameManager : MonoBehaviour
     }
 
     void DisplayGameOverScreen()
-
     {
         GameOverScreen.SetActive(true);
     }
@@ -123,15 +197,20 @@ public class GameManager : MonoBehaviour
     {
         ChangeState(GameState.GameOver);
     }
+
+    void ResetStopwatch()
+    {
+        CurrentTime = TimeLimit;
+    }
     
     void UpdateStopwatch()
     {
-        TimeLimit -= Time.deltaTime;
-        if (TimeLimit <= 10f)
+        CurrentTime -= Time.deltaTime;
+        if (CurrentTime <= 10f)
         {
             ChangeStopwatchColor();
         }
-        if (TimeLimit <= 0f)
+        if (CurrentTime <= 0f)
         {
             ChangeState(GameState.GameOver);
             return;
@@ -151,7 +230,7 @@ public class GameManager : MonoBehaviour
     
     void UpdateStopwatchDisplay()
     {
-        int seconds = Mathf.FloorToInt(TimeLimit % 60);
+        int seconds = Mathf.FloorToInt(CurrentTime % 60);
         StopwatchDisplay.text = seconds.ToString();
     }
 }
