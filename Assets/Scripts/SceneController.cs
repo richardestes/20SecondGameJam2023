@@ -16,6 +16,12 @@ public class SceneController : MonoBehaviour
        Time.timeScale = 1; // reset to default value
     }
 
+    public static void RestartLevel()
+    {
+        SceneManager.LoadScene(GetCurrentSceneIndex());
+        Time.timeScale = 1;
+    }
+
     public static string GetCurrentSceneName()
     {
         return SceneManager.GetActiveScene().name;
