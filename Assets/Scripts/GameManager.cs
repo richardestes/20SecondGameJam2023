@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     }
     public GameObject Player;
     public GameObject PlayerSpawn;
+    private PlayerMovement _playerMovement;
 
     [Header("GameState")]
     public GameState currentState, previousState;
@@ -38,6 +39,15 @@ public class GameManager : MonoBehaviour
     [Header("Screens")]
     public GameObject PauseScreen;
     public GameObject GameOverScreen;
+
+    [Header("Camera")]
+    public GameObject MainCameraObject;
+    private Camera MainCamera;
+    private FollowCamera MainCameraFollow;
+    public float CameraZoomSpeed;
+    public float MaxZoomOut;
+    public float MaxZoomIn;
+    public bool IsZoomingIn, IsZoomingOut, IsZoomLevel;
     
     public bool IsGameOver, IsChangingLevel = false;
 
@@ -53,7 +63,10 @@ public class GameManager : MonoBehaviour
         instance = this;
         //DontDestroyOnLoad(gameObject);
 
-        Player = FindObjectOfType<PlayerMovement>().gameObject;
+        _playerMovement = Player.GetComponent<PlayerMovement>();
+        Player = _playerMovement.gameObject;
+        MainCamera = MainCameraObject.GetComponent<Camera>();
+        MainCameraFollow = MainCameraObject.GetComponent<FollowCamera>();
         
         DisableScreens();
         ResetStopwatch();
@@ -76,6 +89,8 @@ public class GameManager : MonoBehaviour
         {
             StopAudio();
         }
+        if (IsZoomingIn) ZoomInCamera();
+        else if (IsZoomingOut) ZoomOutCamera();
         switch (currentState)
         {
             case GameState.Gameplay:
@@ -115,9 +130,35 @@ public class GameManager : MonoBehaviour
 
     public void Die()
     {
+        if (_playerMovement.isInvincible) return;
+        _playerMovement.invincibilityTimer = _playerMovement.invincibilityDuration;
+        _playerMovement.isInvincible = true;
         IncreaseDeathCount();
         ResetSpawn();
         UpdateDeathCountDisplay();
+    }
+
+    public void ToggleFollowCamera()
+    {
+        MainCamera.GetComponent<FollowCamera>().IsActive = !MainCamera.GetComponent<FollowCamera>().IsActive;
+    }
+
+    public void ZoomOutCamera()
+    {
+        MainCamera.orthographicSize += Time.deltaTime * CameraZoomSpeed;
+        if (MainCamera.orthographicSize <= MaxZoomIn)
+        {
+            IsZoomingIn = false;
+        }
+    }
+
+    public void ZoomInCamera()
+    {
+        MainCamera.orthographicSize -= Time.deltaTime * CameraZoomSpeed;
+        if (MainCamera.orthographicSize >= MaxZoomOut)
+        {
+            IsZoomingOut = false;
+        }
     }
 
     public void UpdateDeathCountDisplay()
@@ -209,6 +250,11 @@ public class GameManager : MonoBehaviour
         if (CurrentTime <= 10f)
         {
             ChangeStopwatchColor();
+            if (IsZoomLevel)
+            {
+                IsZoomingIn = true;
+                MainCameraFollow.IsActive = true;
+            }
         }
         if (CurrentTime <= 0f)
         {

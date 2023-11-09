@@ -101,6 +101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveDirection: {x: 0, y: 0}
   MoveSpeed: 10
+  invincibilityDuration: 0.5
+  invincibilityTimer: 0
+  isInvincible: 0
 --- !u!50 &1761669952761394996
 Rigidbody2D:
   serializedVersion: 4

@@ -9,6 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 MoveDirection;
     public float MoveSpeed;
     
+    [Header("IFrames")] public float invincibilityDuration;
+    public float invincibilityTimer;
+    public bool isInvincible;
+    
     void Start()
     {
         _rigidBody = GetComponent<Rigidbody2D>();
@@ -17,6 +21,15 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (invincibilityTimer > 0)
+        {
+            invincibilityTimer -= Time.deltaTime;
+            Debug.Log("Invincibility Time: " + invincibilityTimer);
+        }
+        else if (isInvincible)
+        {
+            isInvincible = false;
+        }
         InputManagement();
     }
 

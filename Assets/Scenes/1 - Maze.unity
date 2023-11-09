@@ -13750,6 +13750,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveDirection: {x: 0, y: 0}
   MoveSpeed: 10
+  invincibilityDuration: 0.5
+  invincibilityTimer: 0
+  isInvincible: 0
 --- !u!50 &1520107142
 Rigidbody2D:
   serializedVersion: 4
@@ -13896,6 +13899,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1647179654}
     - target: {fileID: 8432828602150796373, guid: fd17191d8f7e9284eb50be4cfbe75045, type: 3}
+      propertyPath: MainCameraObject
+      value: 
+      objectReference: {fileID: 519420028}
+    - target: {fileID: 8432828602150796373, guid: fd17191d8f7e9284eb50be4cfbe75045, type: 3}
       propertyPath: StopwatchDisplay
       value: 
       objectReference: {fileID: 1341811778}
@@ -14026,11 +14033,11 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 255229249}
-  - {fileID: 1520107140}
   - {fileID: 4890462836116306948}
   - {fileID: 503627350}
-  - {fileID: 2696941261532337255}
+  - {fileID: 255229249}
+  - {fileID: 1520107140}
+  - {fileID: 1490259801}
   - {fileID: 587739290}
   - {fileID: 166396960}
-  - {fileID: 1490259801}
+  - {fileID: 2696941261532337255}
