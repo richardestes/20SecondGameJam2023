@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
  
@@ -27,6 +28,12 @@ public class MovingObstacle : MonoBehaviour
 {
 
     // General vars (affect all types of movemens)
+
+    [Header("Delay Time")]
+    public bool IsDelayed;
+    public bool IsDelayedRandomized;
+    public float DelayTime;
+    
     
     [SerializeField]
     MovementType movementType;
@@ -47,18 +54,27 @@ public class MovingObstacle : MonoBehaviour
     public float zigzagLineDistance = 2;
     float zigzagStep;
     bool zigzagMovingPositive = true;
-
+    
     // Start is called before the first frame update
     void Start()
     {
-        // Set start position
         startPosition = transform.position;
         zigzagStep = 0f;
+        if (IsDelayedRandomized)
+        {
+            RandomizeDelay();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (IsDelayed)
+        {
+            StartCoroutine(MovementDelay());
+            return;
+        }
+        
         // Manage how the platform have to move according to movementType var
         switch (movementType) {
             case MovementType.line:
@@ -73,7 +89,17 @@ public class MovingObstacle : MonoBehaviour
         }
     }
 
+    IEnumerator MovementDelay()
+    {
+        yield return new WaitForSeconds(DelayTime);
+        IsDelayed = false;
+    }
 
+    void RandomizeDelay()
+    {
+        DelayTime = UnityEngine.Random.Range(1f, 4f);
+    }
+    
     // Move the platform in a straight line in movementOrientation
     public void moveInAStraightLine() 
     {
@@ -101,7 +127,7 @@ public class MovingObstacle : MonoBehaviour
         // Calculating direction (CW or CCW)
         int direction = (circularMovementOrientation == CircularMovementOrientation.counterclockwise)?1:-1;
 
-        // Calculating coordenates 
+        // Calculating coordinates 
         float x = startPosition.x + Mathf.Cos(Time.time * speed * direction) * circleRadius;
         x -= circleRadius;
         float y = startPosition.y + Mathf.Sin(Time.time * speed * direction) * circleRadius;
@@ -144,8 +170,8 @@ public class MovingObstacle : MonoBehaviour
     // Funtion to see the platform path (only for debugging)
     private void OnDrawGizmosSelected() {
         Gizmos.color = gizmoColor;
-        Vector3 src = Vector3.zero;
-        Vector3 dest = Vector3.zero;
+        Vector3 src;
+        Vector3 dest;
 
         switch (movementType) {
             case MovementType.line:
@@ -157,8 +183,8 @@ public class MovingObstacle : MonoBehaviour
                 Gizmos.DrawLine(src, dest);
             break;
             case MovementType.circular:
-                // Cicular movement 
-                src = new Vector3(startPosition.x - circleRadius, startPosition.y);
+                // Circular movement 
+                src = new Vector3(transform.position.x - circleRadius, transform.position.y);
                 Gizmos.DrawWireSphere(src, circleRadius);
             break;
             case MovementType.zigzag:
@@ -186,5 +212,5 @@ public class MovingObstacle : MonoBehaviour
                 break;
         }
     }
-
+    
 }

@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("IFrames")] public float invincibilityDuration;
     public float invincibilityTimer;
     public bool isInvincible;
+
+    public bool IsReversed;
     
     void Start()
     {
@@ -51,6 +53,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
+        if (IsReversed)
+        {
+            _rigidBody.velocity = new Vector2(-MoveDirection.x * MoveSpeed, -MoveDirection.y * MoveSpeed);
+        }
+        else
         _rigidBody.velocity = new Vector2(MoveDirection.x * MoveSpeed, MoveDirection.y * MoveSpeed);
     }
 
@@ -60,5 +67,10 @@ public class PlayerMovement : MonoBehaviour
         {
             GameManager.instance.Die();
         }
+    }
+
+    public void ReverseControls()
+    {
+        IsReversed = true;
     }
 }
